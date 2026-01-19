@@ -1,0 +1,373 @@
+@use "variables" as *;
+
+// Hero Section
+.hero {
+  position: relative;
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $primary-color;
+  color: $color-white;
+  overflow: hidden;
+  padding: $spacing-xl 0;
+
+  @media (max-width: $breakpoint-md) {
+    min-height: 60vh;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
+    animation: heroImageFade 30s infinite;
+
+    @media (max-width: $breakpoint-md) {
+      background-size: auto 110%;
+    }
+  }
+
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(90, 111, 75, 0.5);
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: $spacing-md;
+  }
+
+  .hero-names {
+    font-size: 5rem;
+    margin-bottom: $spacing-md;
+    text-shadow: none;
+    font-family: $font-script;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),
+                  0 0 8px rgba(0, 0, 0, 0.3);
+
+    @media (max-width: $breakpoint-md) {
+      font-size: 3.5rem;
+    }
+  }
+
+  .hero-date {
+    font-size: 1.15rem;
+    font-weight: 400;
+    font-family: $font-body;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: $spacing-md;
+  }
+
+  .countdown {
+    display: flex;
+    gap: $spacing-md;
+    justify-content: center;
+    margin-bottom: $spacing-md;
+    flex-wrap: wrap;
+
+    .countdown-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-width: 60px;
+    }
+
+    .countdown-value {
+      font-size: 1.15rem;
+      font-weight: 600;
+      font-family: $font-body;
+      line-height: 1;
+      margin-bottom: $spacing-xs;
+    }
+
+    .countdown-label {
+      font-size: 0.75rem;
+      font-weight: 300;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      opacity: 0.8;
+    }
+  }
+
+  .hero-divider {
+    width: 60px;
+    height: 1px;
+    background: $color-white;
+    margin: $spacing-md auto;
+    opacity: 0.5;
+  }
+
+  .hero-tagline {
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: $font-body;
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+  }
+
+  .hero-scroll {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    animation: bounce 2s infinite;
+
+    @media (max-width: $breakpoint-md) {
+      display: none;
+    }
+
+    span {
+      display: block;
+      font-size: $font-size-sm;
+      margin-bottom: 8px;
+      letter-spacing: 1px;
+    }
+
+    .scroll-arrow {
+      width: 24px;
+      height: 24px;
+      margin: 0 auto;
+      border-left: 2px solid $color-white;
+      border-bottom: 2px solid $color-white;
+      transform: rotate(-45deg);
+    }
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  40% {
+    transform: translateX(-50%) translateY(-10px);
+  }
+  60% {
+    transform: translateX(-50%) translateY(-5px);
+  }
+}
+
+@keyframes heroImageFade {
+  0% {
+    background-image: url('../images/mount_sunrise.jpg');
+    opacity: 1;
+  }
+  30% {
+    background-image: url('../images/mount_sunrise.jpg');
+    opacity: 1;
+  }
+  33.33% {
+    background-image: url('../images/mount_sunrise.jpg');
+    opacity: 0;
+  }
+  33.34% {
+    background-image: url('../images/mount_front.jpg');
+    opacity: 0;
+  }
+  36.67% {
+    background-image: url('../images/mount_front.jpg');
+    opacity: 1;
+  }
+  63.33% {
+    background-image: url('../images/mount_front.jpg');
+    opacity: 1;
+  }
+  66.66% {
+    background-image: url('../images/mount_front.jpg');
+    opacity: 0;
+  }
+  66.67% {
+    background-image: url('../images/mount_fall.jpg');
+    opacity: 0;
+  }
+  70% {
+    background-image: url('../images/mount_fall.jpg');
+    opacity: 1;
+  }
+  96.67% {
+    background-image: url('../images/mount_fall.jpg');
+    opacity: 1;
+  }
+  100% {
+    background-image: url('../images/mount_fall.jpg');
+    opacity: 0;
+  }
+}
+
+// Home sections
+.home-content {
+  .section {
+    padding: $spacing-xl 0;
+
+    &:nth-child(odd) {
+      background: $primary-color;
+      color: $color-white;
+
+      h2, h3, h4 {
+        color: $color-white;
+      }
+
+      a {
+        color: $color-cream;
+      }
+    }
+
+    &:nth-child(even) {
+      background: $color-cream;
+      color: $text-color;
+    }
+  }
+
+  .section-title {
+    text-align: center;
+    margin-bottom: $spacing-lg;
+  }
+}
+
+// Gallery
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: $spacing-sm;
+  padding: $spacing-md 0;
+
+  .gallery-item {
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow $transition-base;
+
+    &:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform $transition-base;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  // Fallback for direct img children (if any)
+  > img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+}
+
+// Timeline
+.timeline {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: $spacing-md 0;
+
+  .timeline-item {
+    display: flex;
+    margin-bottom: $spacing-lg;
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 60px;
+      top: 0;
+      bottom: -$spacing-lg;
+      width: 2px;
+      background: $color-gray-light;
+    }
+
+    &:last-child::before {
+      display: none;
+    }
+
+    .timeline-time {
+      flex: 0 0 120px;
+      font-weight: 600;
+      color: $primary-color;
+      padding-top: 4px;
+    }
+
+    .timeline-content {
+      flex: 1;
+      padding-left: $spacing-md;
+
+      h4 {
+        margin-bottom: $spacing-xs;
+      }
+
+      p {
+        color: $text-light;
+        margin: 0;
+      }
+    }
+
+    .timeline-marker {
+      width: 16px;
+      height: 16px;
+      background: $accent-color;
+      border-radius: 50%;
+      position: absolute;
+      left: 53px;
+      top: 6px;
+      box-shadow: 0 0 0 4px $color-white;
+    }
+  }
+}
+
+// Wedding Party
+.wedding-party-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: $spacing-md;
+  margin-top: $spacing-lg;
+
+  .party-member {
+    text-align: center;
+
+    img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 0 auto $spacing-sm;
+      border: 4px solid $primary-color;
+    }
+
+    h4 {
+      margin-bottom: $spacing-xs;
+      color: $primary-color;
+    }
+
+    .role {
+      color: $text-light;
+      font-size: $font-size-sm;
+      font-style: italic;
+    }
+  }
+}

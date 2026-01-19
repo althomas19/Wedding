@@ -1,0 +1,49 @@
+<header class="site-header">
+  <nav class="navbar">
+    <div class="container">
+      <div class="nav-brand">
+        <a href="{{ '/' | relative_url }}">
+          {{ site.couple.name1 }} <span class="ampersand">&</span> {{ site.couple.name2 }}
+        </a>
+      </div>
+
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-menu">
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/details' | relative_url }}">Schedule</a></li>
+        <li><a href="{{ '/gallery' | relative_url }}">Gallery</a></li>
+        <li><a href="{{ '/travel' | relative_url }}">Travel</a></li>
+        <li><a href="{{ '/registry' | relative_url }}">Registry</a></li>
+        <li><a href="{{ '/faq' | relative_url }}">FAQ</a></li>
+        <li><a href="{{ '/rsvp' | relative_url }}" class="btn-rsvp">RSVP</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<script>
+  // Mobile menu toggle
+  document.addEventListener('DOMContentLoaded', function() {
+    const navToggle = document.querySelector('.nav-toggle');
+    const navMenu = document.querySelector('.nav-menu');
+
+    navToggle.addEventListener('click', function() {
+      navMenu.classList.toggle('active');
+      navToggle.classList.toggle('active');
+    });
+
+    // Close menu when clicking on a link
+    const navLinks = document.querySelectorAll('.nav-menu a');
+    navLinks.forEach(link => {
+      link.addEventListener('click', function() {
+        navMenu.classList.remove('active');
+        navToggle.classList.remove('active');
+      });
+    });
+  });
+</script>

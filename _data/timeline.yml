@@ -1,0 +1,39 @@
+- time: "3:30 PM"
+  title: "Guest Arrival"
+  description: "Guests begin arriving at the ceremony venue. Please find your seats."
+
+- time: "4:00 PM"
+  title: "Ceremony Begins"
+  description: "The wedding ceremony begins. Please silence your phones and enjoy the moment!"
+
+- time: "4:30 PM"
+  title: "Ceremony Ends"
+  description: "Recessional and congratulations!"
+
+- time: "4:45 PM"
+  title: "Cocktail Hour"
+  description: "Join us for drinks and hors d'oeuvres while we take photos with the wedding party."
+
+- time: "6:00 PM"
+  title: "Reception Doors Open"
+  description: "Head to the reception venue and find your table."
+
+- time: "6:30 PM"
+  title: "Grand Entrance"
+  description: "Introduction of the wedding party and newlyweds."
+
+- time: "7:00 PM"
+  title: "Dinner Service"
+  description: "Enjoy a delicious meal with toasts and speeches."
+
+- time: "8:30 PM"
+  title: "First Dance"
+  description: "The newlyweds take the floor for their first dance."
+
+- time: "9:00 PM"
+  title: "Dance Party"
+  description: "Dance the night away with us!"
+
+- time: "11:00 PM"
+  title: "Last Dance"
+  description: "One final dance to end the perfect evening."

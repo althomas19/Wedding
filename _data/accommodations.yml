@@ -1,0 +1,24 @@
+hotels:
+  - name: "Berkshires Untold"
+    address: "194 Pittsfield Road, Lenox, MA 01240"
+    description: "Where we will be having our after party celebration."
+    booking_link: "https://app.mews.com/distributor/f20937c0-f559-4584-8e14-b1bf00e4b962?mewsAvailabilityBlockId=d01629f4-1868-42cb-8a86-b3d000f71fc3&mewsStart=2026-10-16&mewsEnd=2026-10-18"
+    book_by_date: ""
+
+  - name: "Courtyard by Marriott Lenox Berkshires"
+    address: "70 Pittsfield Road, Lenox, MA 01240"
+    description: "A ~15 minute walk from the Berkshires Untold afterparty."
+    booking_link: "https://www.marriott.com/event-reservations/reservation-link.mi?id=1762625777122&key=GRP&app=resvlink&_branch_match_id=1304552275317515538&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXTywo0MtNLCrKzC8p0UvOz9UvSi3OyczLtgdK2ALZZSCOWmaKraG5mZGZkam5ubmhkZFadmqlrXtQgFpdUWpaKlB3Xnp8UlF%2BeXFqka1zRlF%2BbioAU%2FdSs2AAAAA%3D"
+    book_by_date: "August 16, 2026"
+
+  - name: "Element Lenox Berkshires"
+    address: "130 Pittsfield Road, Lenox, MA 01240"
+    description: "A ~10 minute walk and the closest hotel to the Berkshires Untold afterparty."
+    booking_link: "https://www.marriott.com/event-reservations/reservation-link.mi?id=1762868949529&key=GRP&app=resvlink&_branch_match_id=1304552275317515538&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXTywo0MtNLCrKzC8p0UvOz9UvSi3OyczLtgdK2ALZZSCOWmaKraG5mZGFmYWliaWpkaVadmqlrXtQgFpdUWpaKlB3Xnp8UlF%2BeXFqka1zRlF%2BbioALO4EamAAAAA%3D"
+    book_by_date: "August 16, 2026"
+
+  - name: "Hilton Garden Inn Lenox Pittsfield"
+    address: "1032 South Street, Pittsfield, MA 01201"
+    description: "Up the road from the afterparty but closely located to food and shopping"
+    booking_link: "https://hilton.com/en/book/reservation/deeplink/?ctyhocn=PSFLPGI&groupCode=TNW10&arrivaldate=2026-10-16&departuredate=2026-10-18&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT"
+    book_by_date: "August 16, 2026"

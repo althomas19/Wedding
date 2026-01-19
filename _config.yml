@@ -1,0 +1,41 @@
+# Site settings
+title: Alex and Gillian's Wedding
+email: alexgillianwedding1017@gmail.com
+description: Join us as we celebrate our wedding at the Mount in Lenox, MA
+baseurl: ""
+url: ""
+
+# Couple information
+couple:
+  name1: "Gillian"
+  name1Last: "Nissenbaum"
+  name2: "Alex"
+  name2Last: "Thomas"
+  wedding_date: "October 17, 2026"
+  wedding_date_formatted: "Saturday October 17, 2026"
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Collections
+collections:
+  - timeline
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"

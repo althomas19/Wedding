@@ -1,0 +1,219 @@
+@use "sass:color";
+@use "variables" as *;
+
+// Navigation
+.site-header {
+  background: $primary-color;
+  box-shadow: none;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  padding: $spacing-sm 0;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-brand {
+    a {
+      font-family: $font-script;
+      font-size: 2rem;
+      color: $color-white;
+      font-weight: 600;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),
+                   0 0 8px rgba(0, 0, 0, 0.3);
+
+      &:hover {
+        color: $color-cream;
+      }
+    }
+  }
+
+  .nav-toggle {
+    display: none;
+    flex-direction: column;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+
+    span {
+      width: 25px;
+      height: 3px;
+      background: $color-white;
+      margin: 3px 0;
+      transition: $transition-base;
+    }
+
+    @media (max-width: $breakpoint-md) {
+      display: flex;
+    }
+
+    &.active span:nth-child(1) {
+      transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    &.active span:nth-child(2) {
+      opacity: 0;
+    }
+
+    &.active span:nth-child(3) {
+      transform: rotate(-45deg) translate(7px, -6px);
+    }
+  }
+
+  .nav-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: $spacing-md;
+    align-items: center;
+
+    @media (max-width: $breakpoint-md) {
+      position: fixed;
+      left: -100%;
+      top: 70px;
+      flex-direction: column;
+      background-color: $primary-color;
+      width: 100%;
+      text-align: center;
+      transition: left $transition-base;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: $spacing-md 0;
+      gap: 0;
+
+      &.active {
+        left: 0;
+      }
+
+      li {
+        padding: $spacing-sm 0;
+        width: 100%;
+      }
+    }
+
+    a {
+      color: $color-white;
+      font-weight: 400;
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: color $transition-base;
+
+      &:hover {
+        color: $color-cream;
+      }
+    }
+
+    .btn-rsvp {
+      background: $color-white;
+      color: $primary-color;
+      padding: 8px 20px;
+      border-radius: 4px;
+      font-weight: 600;
+
+      &:hover {
+        background: $color-cream;
+        color: $primary-color;
+      }
+    }
+  }
+}
+
+// Footer
+.site-footer {
+  background: $primary-color;
+  color: $color-white;
+  padding: $spacing-lg 0 $spacing-md;
+  margin-top: $spacing-xl;
+  text-align: center;
+
+  .footer-content {
+    p {
+      margin-bottom: $spacing-sm;
+    }
+  }
+
+  .footer-names {
+    font-family: $font-script;
+    font-size: $font-size-xl;
+    font-weight: 600;
+  }
+
+  .footer-date {
+    font-size: $font-size-lg;
+    opacity: 0.9;
+  }
+
+  .footer-copyright {
+    font-size: $font-size-sm;
+    opacity: 0.8;
+    margin-top: $spacing-md;
+  }
+}
+
+// Buttons
+.btn {
+  display: inline-block;
+  padding: 14px 36px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-family: $font-body;
+  font-size: 0.9rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  transition: all $transition-base;
+  cursor: pointer;
+  border: 2px solid transparent;
+
+  &.btn-primary {
+    background: $primary-color;
+    color: $color-white;
+    border-color: $primary-color;
+
+    &:hover {
+      background: $color-sage-dark;
+      border-color: $color-sage-dark;
+    }
+  }
+
+  &.btn-outline {
+    background: transparent;
+    border-color: $primary-color;
+    color: $primary-color;
+
+    &:hover {
+      background: $primary-color;
+      color: $color-white;
+    }
+  }
+
+  &.btn-light {
+    background: $color-white;
+    color: $primary-color;
+    border-color: $color-white;
+
+    &:hover {
+      background: $color-cream;
+      border-color: $color-cream;
+    }
+  }
+
+  &.btn-outline-light {
+    background: transparent;
+    border-color: $color-white;
+    color: $color-white;
+
+    &:hover {
+      background: $color-white;
+      color: $primary-color;
+    }
+  }
+}

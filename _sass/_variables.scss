@@ -1,0 +1,59 @@
+// Color Palette - Modern Garden Theme
+// $color-sage: #688c4f;
+// $color-sage-light: #7a8f6b;
+// $color-sage-dark: #3a4f2b;
+$color-sage: #39553d;
+$color-sage-light: #7a8f6b;
+$color-sage-dark: #3a4f2b;
+
+$color-cream: #F5F1E8;
+$color-cream-dark: #E8E4D8;
+
+$color-gold: #D4AF37;
+
+$color-white: #FFFFFF;
+$color-charcoal: #2C2C2C;
+$color-gray: #6B6B6B;
+$color-gray-light: #D5D5D5;
+
+// Primary Colors
+$primary-color: $color-sage;
+$secondary-color: $color-cream;
+$accent-color: $color-gold;
+$text-color: $color-charcoal;
+$text-light: $color-gray;
+$bg-color: $color-cream;
+
+// Typography
+$font-script: 'Dancing Script', cursive;
+$font-elegant: 'Cormorant Garamond', serif;
+$font-body: 'Lato', sans-serif;
+
+$font-size-base: 16px;
+$font-size-sm: 14px;
+$font-size-lg: 18px;
+$font-size-xl: 24px;
+
+$line-height-base: 1.6;
+$line-height-heading: 1.2;
+
+// Spacing
+$spacing-xs: 8px;
+$spacing-sm: 16px;
+$spacing-md: 24px;
+$spacing-lg: 48px;
+$spacing-xl: 72px;
+$spacing-xxl: 96px;
+
+// Breakpoints
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+// Container
+$container-max-width: 1140px;
+$container-padding: 20px;
+
+// Transitions
+$transition-base: 0.3s ease;

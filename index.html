@@ -1,0 +1,94 @@
+---
+layout: home
+title: Home
+---
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">Join Us</h2>
+    <div class="section-divider"></div>
+    <div style="max-width: 700px; margin: 0 auto; text-align: center;">
+      <p style="font-size: 1.1rem; line-height: 1.8;">
+        We are thrilled to invite you to celebrate the beginning of our journey together.
+        Your presence on our special day would mean the world to us. Please join us for a weekend
+        filled with love, laughter, and unforgettable memories.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background: white;">
+  <div class="container">
+    <h2 class="section-title">Wedding Weekend Events</h2>
+    <div class="section-divider"></div>
+
+    <div class="grid grid-2" style="margin-top: 3rem; gap: 2rem;">
+      <div class="card text-center">
+        <h3 style="margin-bottom: 0.25rem;">{{ site.data.events.welcome_event.name }}</h3>
+        {% if site.data.events.welcome_event.icon %}
+        <div style="width: 70px; height: 70px; margin: 0.25rem auto 1rem;">
+          {{ site.data.events.welcome_event.icon }}
+        </div>
+        {% endif %}
+        <p style="font-size: 0.9rem; color: #666;">{{ site.data.events.welcome_event.day }}</p>
+        <p><strong>{{ site.data.events.welcome_event.time }}</strong></p>
+        <p>{{ site.data.events.welcome_event.venue }}</p>
+        <p style="font-size: 0.9rem;"><a href="{{ site.data.events.welcome_event.map_link }}" target="_blank">{{ site.data.events.welcome_event.address }}</a></p>
+      </div>
+
+      <div class="card text-center">
+        <h3 style="margin-bottom: 0.25rem;">{{ site.data.events.wedding.name }}</h3>
+        {% if site.data.events.wedding.icon %}
+        <div style="width: 70px; height: 70px; margin: 0.25rem auto 1rem;">
+          {{ site.data.events.wedding.icon }}
+        </div>
+        {% endif %}
+        <p style="font-size: 0.9rem; color: #666;">{{ site.data.events.wedding.day }}</p>
+        <p><strong>{{ site.data.events.wedding.time }}</strong></p>
+        <p>{{ site.data.events.wedding.venue }}</p>
+        <p style="font-size: 0.9rem;"><a href="{{ site.data.events.wedding.map_link }}" target="_blank">{{ site.data.events.wedding.address }}</a></p>
+      </div>
+
+      <div class="card text-center">
+        <h3 style="margin-bottom: 0.25rem;">{{ site.data.events.after_party.name }}</h3>
+        {% if site.data.events.after_party.icon %}
+        <div style="width: 70px; height: 70px; margin: 0.25rem auto 1rem;">
+          {{ site.data.events.after_party.icon }}
+        </div>
+        {% endif %}
+        <p style="font-size: 0.9rem; color: #666;">{{ site.data.events.after_party.day }}</p>
+        <p><strong>{{ site.data.events.after_party.time }}</strong></p>
+        <p>{{ site.data.events.after_party.venue }}</p>
+        <p style="font-size: 0.9rem;"><a href="{{ site.data.events.after_party.map_link }}" target="_blank">{{ site.data.events.after_party.address }}</a></p>
+      </div>
+
+      <div class="card text-center">
+        <h3 style="margin-bottom: 0.25rem;">{{ site.data.events.brunch.name }}</h3>
+        {% if site.data.events.brunch.icon %}
+        <div style="width: 70px; height: 70px; margin: 0.25rem auto 1rem;">
+          {{ site.data.events.brunch.icon }}
+        </div>
+        {% endif %}
+        <p style="font-size: 0.9rem; color: #666;">{{ site.data.events.brunch.day }}</p>
+        <p><strong>{{ site.data.events.brunch.time }}</strong></p>
+        <p>{{ site.data.events.brunch.venue }}</p>
+        <p style="font-size: 0.9rem;"><a href="{{ site.data.events.brunch.map_link }}" target="_blank">{{ site.data.events.brunch.address }}</a></p>
+      </div>
+    </div>
+
+    <div style="text-align: center; margin-top: 3rem;">
+      <a href="{{ '/rsvp' | relative_url }}" class="btn btn-primary">RSVP Now</a>
+      <a href="{{ '/details' | relative_url }}" class="btn btn-outline" style="margin-left: 1rem;">View Full Details</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container text-center">
+    <h2 class="section-title">We Can't Wait to Celebrate With You</h2>
+    <div class="section-divider"></div>
+    <p style="font-size: 1.1rem; max-width: 600px; margin: 2rem auto;">
+      For more information about accommodations, travel, and other details, please explore our website.
+    </p>
+  </div>
+</section>

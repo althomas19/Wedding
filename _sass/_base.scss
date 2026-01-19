@@ -1,0 +1,116 @@
+@use "variables" as *;
+
+// Reset & Base Styles
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: $font-size-base;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-body;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  color: $text-color;
+  background-color: $bg-color;
+  overflow-x: hidden;
+}
+
+// Typography
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-script;
+  line-height: $line-height-heading;
+  margin-bottom: $spacing-md;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  @media (max-width: $breakpoint-md) {
+    font-size: 3rem;
+  }
+}
+
+h2 {
+  font-size: 3rem;
+  @media (max-width: $breakpoint-md) {
+    font-size: 2.5rem;
+  }
+}
+
+h3 {
+  font-size: 2.5rem;
+  @media (max-width: $breakpoint-md) {
+    font-size: 2rem;
+  }
+}
+
+h2, h3 {
+  font-family: $font-elegant;
+}
+
+h4 {
+  font-size: 1.8rem;
+  font-family: $font-elegant;
+}
+
+h5 {
+  font-size: 1.5rem;
+  font-family: $font-elegant;
+}
+
+p {
+  margin-bottom: $spacing-sm;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+  transition: color $transition-base;
+
+  &:hover {
+    color: $color-sage-dark;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+ul, ol {
+  margin-bottom: $spacing-sm;
+  padding-left: $spacing-md;
+}
+
+// Utilities
+.container {
+  max-width: $container-max-width;
+  margin: 0 auto;
+  padding: 0 $container-padding;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.ampersand {
+  font-family: $font-script;
+  font-style: normal;
+  margin: 0 0.5rem;
+}
+
+.script {
+  font-family: $font-script;
+}
+
+.elegant {
+  font-family: $font-elegant;
+}
