@@ -3,15 +3,16 @@ layout: page
 title: Registry
 ---
 
-
-
-<div style="max-width: 700px; margin: 3rem auto; text-align: center;">
-  <p style="font-size: 1rem; line-height: 1.8;">
+<div style="max-width: 700px; margin: 0 auto; text-align: center;">
+  <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 2rem;">
     <!-- We have registered at the following stores for your convenience. These will be updated with actual links as we get closer the wedding! -->
     Registry coming soon!
   </p>
 </div>
-<div class="grid grid-2" style="max-width: 800px; margin: 0 auto;">
+
+---
+
+<!-- <div class="grid grid-2" style="max-width: 800px; margin: 0 auto;"> -->
 
 <!-- {% for registry in site.data.registry %}
   <div class="card text-center">
