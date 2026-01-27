@@ -12,7 +12,7 @@ couple:
   name2: "Alex"
   name2Last: "Thomas"
   wedding_date: "October 17, 2026"
-  wedding_date_formatted: "Saturday October 17, 2026"
+  wedding_date_formatted: "Saturday, October 17, 2026"
 
 # Build settings
 markdown: kramdown

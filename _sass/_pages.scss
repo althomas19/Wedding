@@ -71,6 +71,8 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: $spacing-md;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),
+                  0 0 8px rgba(0, 0, 0, 0.3);
   }
 
   .countdown {
@@ -114,12 +116,14 @@
 
   .hero-tagline {
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 400;
     font-family: $font-body;
     max-width: 500px;
     margin: 0 auto;
     line-height: 1.8;
     letter-spacing: 0.5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),
+                  0 0 8px rgba(0, 0, 0, 0.3);
   }
 
   .hero-scroll {
