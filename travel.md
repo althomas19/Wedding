@@ -23,7 +23,7 @@ If you will be flying to join our wedding weekend, _we recommend going in and ou
 
 ## Hotel Blocks
 
-We have reserved room blocks with discounts at the following hotels for your convenience. All of the hotels are on Route 20 (also known as Pittsfield Road) in Lenox and are within 5 miles of The Mount. All blocks are held until **August 16th** unless otherwise noted and the discount will expire. Please be aware that our wedding will take place during peak "Leaf Peeper" season, so hotels and inns will likely be at full occupancy. We **strongly** reccomend that you book accomodations early.
+We have reserved room blocks with discounts at the following hotels for your convenience. All of the hotels are on Route 20 (also known as Pittsfield Road) in Lenox and are within 5 miles of The Mount. All blocks are held until **August 16th** unless otherwise noted and the discount will expire. Please be aware that our wedding will take place during peak "Leaf Peeper" season, so hotels and inns will likely be at full occupancy. We **strongly** recommend that you book accomodations early.
 
 See FAQs for details about using hotel reward programs.
 
