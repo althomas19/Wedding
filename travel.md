@@ -5,15 +5,17 @@ subtitle: Where to stay and how to get there
 ---
 
 ## Day Of Wedding Shuttle Information
-We will be arranging shuttles from the hotels below to The Mount and back after the wedding ends, as The Mount's parking lot cannot accommodate cars for all of our guests. Our website will be updated with shuttle information in the weeks leading up to our wedding weekend!
+We will be arranging shuttles from the hotels below to The Mount and back after the wedding ends. However, The Mount's parking lot can accommodate cars for all of our guests. Please see the FAQ for more details. Our website will be updated with shuttle information in the weeks leading up to our wedding weekend!
 
 ---
 
 ## Traveling from New York City or Boston
 
-**NYC:** Guests will have several options to travel to Lenox, MA if coming from New York City. Guests may rent a car and drive two and a half hours to Lenox, take a train from Penn Station to Pittsfield, MA, or there are buses from Port Authority to Lenox (sometimes with transfers in Hartford or Springfield, CT).
+If you will be flying to join our wedding weekend, _we recommend going in and out of Boston_.
 
 **Boston:** If coming from Boston, guests can rent a car and drive two hours to Lenox, take an Amtrak train to Pittsfield, MA, or there are buses from South Station to Lenox (with a transfer in Lee, MA).
+
+**NYC:** Guests will have several options to travel to Lenox, MA if coming from New York City. Guests may rent a car and drive two and a half hours to Lenox, take a train from Penn Station to Pittsfield, MA, or there are buses from Port Authority to Lenox (sometimes with transfers in Hartford, CT, or Springfield, CT).
 
 **Taxi services are limited and Uber/Lyft do not operate in Lenox, MA - renting a car is recommended.**
 
@@ -21,7 +23,9 @@ We will be arranging shuttles from the hotels below to The Mount and back after 
 
 ## Hotel Blocks
 
-We have reserved room blocks with discounts at the following hotels for your convenience. All blocks are held until **August 16th** unless otherwise noted and the discount will expire.
+We have reserved room blocks with discounts at the following hotels for your convenience. All of the hotels are on Route 20 (also known as Pittsfield Road) in Lenox and are within 5 miles of The Mount. All blocks are held until **August 16th** unless otherwise noted and the discount will expire. Please be aware that our wedding will take place during peak "Leaf Peeper" season, so hotels and inns will likely be at full occupancy. We **strongly** reccomend that you book accomodations early.
+
+See FAQs for details about using hotel reward programs.
 
 <div class="grid grid-2" style="margin-top: 2rem; gap: 2rem;">
 {% for hotel in site.data.accommodations.hotels %}
@@ -44,9 +48,9 @@ We have reserved room blocks with discounts at the following hotels for your con
 
 While you're in town, here are some local attractions and activities:
 
-- **Tanglewood** - Summer home of the Boston Symphony Orchestra with beautiful grounds
 - **MASS MoCA** - Contemporary art museum in a converted factory complex
 - **Norman Rockwell Museum** - Collection of American illustrator's works
+- **The Clark Museum** - Exceptional collection of Impressionist paintings
 - **Local Dining** - Explore Lenox's charming downtown restaurants and cafes
 
 ---
