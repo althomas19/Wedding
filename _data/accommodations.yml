@@ -31,6 +31,6 @@ hotels:
 
   - name: "The Inn at Silver Maple Farm"
     address: "1871 NY-295, East Chatham, NY"
-    description: "Down the hill from Gillian's family home, where the Sunday brunch will be taking place. Please reach out to Gillian for more detail on staying here."
+    description: "Down the hill from Gillian's family home, where the Sunday brunch will be taking place. Please reach out to Gillian for more details on staying here."
     booking_link: "https://www.silvermaplefarm.com"
     book_by_date: ""
