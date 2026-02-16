@@ -26,7 +26,7 @@ hotels:
   - name: "Doctor Sax House"
     address: "35 Walker Street, Lenox, MA"
     description: "Location of our Welcome Party and centrally located in downtown Lenox - we do not have a room block but we do have a 15% discount booking link."
-    booking_link: "https://hotels.cloudbeds.com/reservation/jlAfsZ?allotment_block_code=b067763#checkin=2026-10-16&checkout=2026-10-18"
+    booking_link: "https://hotels.cloudbeds.com/en/reservation/jlAfsZ?allotment_block_code=b748238&checkin=2026-10-16&checkout=2026-10-18&currency=usd"
     book_by_date: ""
 
   - name: "The Inn at Silver Maple Farm"
