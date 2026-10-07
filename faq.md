@@ -4,10 +4,11 @@ title: FAQ
 subtitle: Frequently asked questions
 ---
 
+{% assign details_url = '/details' | relative_url %}
 {% for item in site.data.faq %}
 <div class="card" style="margin-bottom: 1.5rem;">
   <h3 style="color: #8B9D83; margin-bottom: 1rem;">{{ item.question }}</h3>
-  <p style="margin: 0;">{{ item.answer }}</p>
+  <p style="margin: 0;">{{ item.answer | replace: '__DETAILS_URL__', details_url }}</p>
 </div>
 {% endfor %}
 
