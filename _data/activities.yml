@@ -1,0 +1,85 @@
+categories:
+  - name: "Gardens & Historic Estates"
+    activities:
+      - name: "Naumkeag"
+        location: "Stockbridge, MA"
+        description: "Gilded Age estate with beautiful gardens - and their annual pumpkin show is on during our wedding weekend!"
+        link: "https://thetrustees.org/place/naumkeag/"
+
+      - name: "Ventfort Hall"
+        location: "Lenox, MA"
+        description: "Gilded Age mansion and museum right here in Lenox."
+        link: "https://gildedage.org/"
+
+      - name: "Chesterwood"
+        location: "Stockbridge, MA"
+        description: "Home, studio, and gardens of sculptor Daniel Chester French."
+        link: "https://www.chesterwood.org/"
+
+      - name: "Berkshire Botanical Garden"
+        location: "Stockbridge, MA"
+        description: "Gardens to stroll through - check their site for hours and admission."
+        link: "https://www.berkshirebotanical.org/hours-and-admission"
+
+  - name: "Art, Museums & Books"
+    activities:
+      - name: "TurnPark Art Space"
+        location: "West Stockbridge, MA"
+        description: "Outdoor sculpture garden."
+        link: "https://www.turnpark.com/"
+
+      - name: "Shaker Mill Books"
+        location: "West Stockbridge, MA"
+        description: "Bookstore - pair it with a visit to TurnPark."
+        link: "https://www.shakermillbooks.com/"
+
+      - name: "Norman Rockwell Museum"
+        location: "Stockbridge, MA"
+        description: "Collection of the American illustrator's works."
+        link: "https://www.nrm.org/"
+
+      - name: "The Clark Art Institute"
+        location: "Williamstown, MA"
+        description: "Exceptional collection of Impressionist paintings."
+        link: "https://www.clarkart.edu/"
+
+      - name: "MASS MoCA"
+        location: "North Adams, MA"
+        description: "Contemporary art museum in a converted factory complex."
+        link: "https://massmoca.org/"
+
+  - name: "Hikes"
+    activities:
+      - name: "Olivia's Overlook"
+        location: "Lenox, MA"
+        description: "Scenic overlook trail."
+        link: "https://www.bnrc.org/reserves/olivias-overlook-at-yokun-ridge-south"
+
+      - name: "Ice Glen & Laura's Tower Trail"
+        location: "Stockbridge, MA"
+        description: "Trails through Ice Glen and up to Laura's Tower."
+        link: "https://housatonicheritage.org/places/lauras-tower-trail-ice-glen-trail-stockbridge-mass/"
+
+      - name: "Hollow Fields Reserve"
+        location: "Richmond, MA"
+        description: "Trails through fields and woods."
+        link: "https://www.bnrc.org/reserves/hollow-fields"
+
+  - name: "Apple Picking"
+    activities:
+      - name: "Hilltop Orchards"
+        location: "Richmond, MA"
+        description: "Pick your own apples."
+        link: "https://www.hilltoporchards.com/"
+
+      - name: "Bartlett's Orchard"
+        location: "Richmond, MA"
+        description: "Pick your own apples."
+        link: "https://www.bartlettsorchard.com/"
+
+  - name: "Wine Tasting"
+    activities:
+      - name: "Balderdash Cellars"
+        location: "Richmond, MA"
+        description: "Winery with a tasting room."
+        link: "https://balderdashcellars.com/"

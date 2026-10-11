@@ -5,10 +5,11 @@ subtitle: Frequently asked questions
 ---
 
 {% assign details_url = '/details' | relative_url %}
+{% assign transportation_url = '/transportation' | relative_url %}
 {% for item in site.data.faq %}
 <div class="card" style="margin-bottom: 1.5rem;">
   <h3 style="color: #8B9D83; margin-bottom: 1rem;">{{ item.question }}</h3>
-  <p style="margin: 0;">{{ item.answer | replace: '__DETAILS_URL__', details_url }}</p>
+  <p style="margin: 0;">{{ item.answer | replace: '__DETAILS_URL__', details_url | replace: '__TRANSPORTATION_URL__', transportation_url }}</p>
 </div>
 {% endfor %}
 

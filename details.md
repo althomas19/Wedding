@@ -41,5 +41,5 @@ subtitle: Everything you need to know about our wedding weekend
 
 <div class="text-center" style="margin-top: 3rem;">
   <a href="{{ '/rsvp' | relative_url }}" class="btn btn-primary">RSVP Now</a>
-  <a href="{{ '/travel' | relative_url }}" class="btn btn-outline" style="margin-left: 1rem;">Travel Info</a>
+  <a href="{{ '/travel' | relative_url }}" class="btn btn-outline" style="margin-left: 1rem;">Things to Do</a>
 </div>

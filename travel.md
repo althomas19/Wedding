@@ -1,31 +1,34 @@
 ---
 layout: page
-title: Travel & Accommodations
-subtitle: Where to stay and how to get there
+title: Things to Do
 ---
 
-## Day Of Wedding Shuttle Information
-We will be arranging shuttles from the hotels below to The Mount and back after the wedding ends. However, The Mount's parking lot can accommodate cars for all of our guests. Please see the FAQ for more details. Our website will be updated with shuttle information in the weeks leading up to our wedding weekend!
+Our wedding falls during peak fall foliage season, and there's a lot to explore in the area. Here are some of our favorites!
+
+{% for category in site.data.activities.categories %}
+## {{ category.name }}
+
+<div class="grid grid-2" style="margin-top: 2rem; gap: 2rem;">
+{% for activity in category.activities %}
+  <div class="card">
+    <h3>{{ activity.name }}</h3>
+    <p><strong>{{ activity.location }}</strong></p>
+    <p>{{ activity.description }}</p>
+
+    {% if activity.link != "" %}
+    <a href="{{ activity.link }}" target="_blank" class="btn btn-outline" style="margin-top: 1rem;">Learn More</a>
+    {% endif %}
+  </div>
+{% endfor %}
+</div>
+<br>
 
 ---
+{% endfor %}
 
-## Traveling from New York City or Boston
+## Where Everyone's Staying
 
-If you will be flying to join our wedding weekend, _we recommend going in and out of Boston_.
-
-**Boston:** If coming from Boston, guests can rent a car and drive two hours to Lenox, take an Amtrak train to Pittsfield, MA, or there are buses from South Station to Lenox (with a transfer in Lee, MA).
-
-**NYC:** Guests will have several options to travel to Lenox, MA if coming from New York City. Guests may rent a car and drive two and a half hours to Lenox, take a train from Penn Station to Pittsfield, MA, or there are buses from Port Authority to Lenox (sometimes with transfers in Hartford, CT, or Springfield, CT).
-
-**Taxi services are limited and Uber/Lyft do not operate in Lenox, MA - renting a car is recommended.**
-
----
-
-## Hotel Blocks
-
-We have reserved room blocks with discounts at the following hotels for your convenience. All of the hotels are on Route 20 (also known as Pittsfield Road) in Lenox and are within 5 miles of The Mount. All blocks are held until **August 16th** unless otherwise noted and the discount will expire. Please be aware that our wedding will take place during peak "Leaf Peeper" season, so hotels and inns will likely be at full occupancy. We **strongly** recommend that you book accomodations early.
-
-See FAQs for details about using hotel reward programs.
+Our room block hotels are all on Route 20 (also known as Pittsfield Road) in Lenox and are within 5 miles of The Mount. See the [Day of Transportation]({{ '/transportation' | relative_url }}) page for shuttle details and the FAQs for details about using hotel reward programs.
 
 <div class="grid grid-2" style="margin-top: 2rem; gap: 2rem;">
 {% for hotel in site.data.accommodations.hotels %}
@@ -44,16 +47,13 @@ See FAQs for details about using hotel reward programs.
 
 ---
 
-## Things to Do in the Berkshires
+## Getting Here
 
-While you're in town, here are some local attractions and activities:
+**Boston:** Rent a car and drive two hours to Lenox, take an Amtrak train to Pittsfield, MA, or take a bus from South Station to Lenox (with a transfer in Lee, MA).
 
-- **MASS MoCA** - Contemporary art museum in a converted factory complex
-- **Norman Rockwell Museum** - Collection of American illustrator's works
-- **The Clark Museum** - Exceptional collection of Impressionist paintings
-- **Local Dining** - Explore Lenox's charming downtown restaurants and cafes
+**NYC:** Rent a car and drive two and a half hours to Lenox, take a train from Penn Station to Pittsfield, MA, or take a bus from Port Authority to Lenox (sometimes with transfers in Hartford, CT, or Springfield, CT).
 
----
+**Taxi services are limited and Uber/Lyft do not operate in Lenox, MA - a car is recommended for getting around.**
 
 <div class="text-center" style="margin-top: 3rem;">
   <a href="{{ '/details' | relative_url }}" class="btn btn-primary">View Schedule</a>

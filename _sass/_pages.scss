@@ -375,3 +375,23 @@
     }
   }
 }
+
+// Callout box for important notes
+.callout {
+  background: $color-white;
+  border-left: 4px solid $primary-color;
+  border-radius: 8px;
+  padding: $spacing-md;
+  margin-top: $spacing-lg;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+  h3 {
+    color: $primary-color;
+    margin-top: 0;
+    margin-bottom: $spacing-xs;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
