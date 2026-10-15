@@ -3,37 +3,37 @@ layout: page
 title: Day of Transportation
 ---
 
-We will update this page with a detailed shuttle schedule, including pickup times, as we get closer to our wedding weekend. Please check back later!
-
----
-
 ## To The Mount
 
-A shuttle bus will pick up guests at each of the hotels where we have room blocks, in this order:
+**Taking the shuttle?** A shuttle bus will pick up guests at each of our room block hotels. Please be in the lobby a few minutes before your pickup time:
 
-1. **Hilton Garden Inn** - 1032 South Street, Pittsfield, MA
-2. **Berkshires Untold** - 194 Pittsfield Road, Lenox, MA
-3. **The Element** - 130 Pittsfield Road, Lenox, MA
-4. **Courtyard by Marriott** - 70 Pittsfield Road, Lenox, MA
+1. **Hilton Garden Inn** (1032 South Street, Pittsfield) - 3:15 PM
+2. **Berkshires Untold** (194 Pittsfield Road, Lenox) - 3:25 PM
+3. **The Element** (130 Pittsfield Road, Lenox) - 3:35 PM
+4. **Courtyard by Marriott** (70 Pittsfield Road, Lenox) - 3:50 PM
+
+The bus will arrive at The Mount 4 PM and drop guests off right by the path to the ceremony.
 
 **Please be on time!** The shuttle will not be able to wait, so if you miss your pickup you will need to find your own way to The Mount.
+
+**Driving yourself?** Reminder that guests are welcome to drive to and from The Mount.
+
+**Parking lot shuttle:** From 3:45 to 4:20 PM, a van will shuttle guests from The Mount's main parking lot down to the house. It's a beautiful quarter-mile walk from the parking lot to the house, so guests are also welcome to walk down if they prefer.
 
 ---
 
 ## After the Wedding
 
-When the wedding ends, the shuttle bus will leave The Mount and:
+- **Heading back early:** The shuttle bus will make trips back to the hotels between 8:45 and 9:45 PM.
+- **End of the wedding:** The shuttle bus will take guests back to the hotels between 10:00 and 10:30 PM.
+- **After Party:** A shuttle bus will take guests to the After Party at Berkshires Untold at the end of the wedding.
 
-1. First drop off guests at the hotels listed above
-2. Then continue on to the After Party at Berkshires Untold
 
 ---
 
 ## At the End of the Night
 
-At the end of the After Party, **two vans** will be available to take guests back to their accommodations.
-
-The vans can also drop guests off at Airbnbs or other rentals within a 5-10 minute drive. If you're interested, please contact Alex or Gillian to get that sorted.
+Vans will be running from the After Party at Berkshires Untold back to the hotels and to nearby Airbnbs until **1 AM**.
 
 <div class="callout">
   <h3>Please Note</h3>
